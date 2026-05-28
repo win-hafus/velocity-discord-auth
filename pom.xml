@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>dev.hfv5</groupId>
+    <groupId>dev.hafus</groupId>
     <artifactId>velocity-discord-auth</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
@@ -58,11 +58,11 @@
                             <relocations>
                                 <relocation>
                                     <pattern>org.mariadb</pattern>
-                                    <shadedPattern>dev.hfv5.vdauth.libs.mariadb</shadedPattern>
+                                    <shadedPattern>dev.hafus.vdauth.libs.mariadb</shadedPattern>
                                 </relocation>
                                 <relocation>
                                     <pattern>com.zaxxer.hikari</pattern>
-                                    <shadedPattern>dev.hfv5.vdauth.libs.hikari</shadedPattern>
+                                    <shadedPattern>dev.hafus.vdauth.libs.hikari</shadedPattern>
                                 </relocation>
                             </relocations>
                         </configuration>
