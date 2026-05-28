@@ -1,0 +1,9 @@
+{
+  "id": "velocity-discord-auth",
+  "name": "VelocityDiscordAuth",
+  "version": "1.0.0",
+  "description": "Velocity plugin that gates server access behind Discord account linking via DiscordSRV",
+  "authors": ["hafus"],
+  "main": "dev.hafus.vdauth.VelocityDiscordAuth",
+  "dependencies": []
+}
