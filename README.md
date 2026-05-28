@@ -70,7 +70,8 @@ It also writes into DiscordSRV's `{prefix}_codes` table to integrate with the bo
 
 ## Author
 
-[Hafus](https://git-vertex-homelab.mooo.com/Hafus)
+- Gitea: [Hafus](https://git-vertex-homelab.mooo.com/Hafus)
+- GitHub: [Win-hafus](https://github.com/win-hafus)
 
 ## License
 
