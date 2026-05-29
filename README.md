@@ -45,8 +45,8 @@ The compiled jar will be at `target/velocity-discord-auth-1.0.0.jar`.
 | `db.user`                  | `root`       | Database user                                                                    |
 | `db.password`              | _(empty)_    | Database password                                                                |
 | `discordsrv.table_prefix`  | `discordsrv` | Must match `Experiment_JdbcTablePrefix` in DiscordSRV's `config.yml`             |
-| `messages.kick`            | —            | Message shown when player is not linked. `{code}` is replaced with the link code |
-| `messages.already_pending` | —            | Message shown when a pending code already exists                                 |
+| `messages.kick`            | Your account is not linked to Discord. Send the code {code} to the Discord bot to link your account            | Message shown when player is not linked. `{code}` is replaced with the link code |
+| `messages.already_pending` | Your account is not linked yet.Your link code is {code}.Send it to the Discord bot            | Message shown when a pending code already exists                                 |
 
 ## Database Schema
 
